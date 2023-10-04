@@ -2,9 +2,10 @@
 
 int actutal_sqrt_recusrsion(int n, int i);
 /**
- * _sqrt_recursion - function that returns the natural square root of a number.
+ * _sqrt_recursion - function that returns the
+ * natural square root of a number.
  * @n: number for calculating square root
- * Retun: result of square root
+ * Return: result of square root
  */
 
 int _sqrt_recursion(int n)

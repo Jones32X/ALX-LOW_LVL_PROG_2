@@ -5,6 +5,7 @@
  * raised to the power of y.
  * @x: value to be raised to power of y
  * @y: value to be the power
+ * Return: power result
  */
 
 int _pow_recursion(int x, int y)
