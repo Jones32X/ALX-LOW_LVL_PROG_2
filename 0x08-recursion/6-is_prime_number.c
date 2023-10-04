@@ -20,7 +20,6 @@ int is_prime_number(int n)
 }
 
 /**
- *
  * actual_prime - checks if number is a recusrive prime number
  * @n: number to be tested
  * @i: iterator
