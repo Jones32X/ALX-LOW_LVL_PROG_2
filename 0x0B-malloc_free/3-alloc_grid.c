@@ -14,8 +14,8 @@ int **alloc_grid(int width, int height)
 	int v;
 	int w;
 
-	if (width <= 0 || height <= 0)
-		 return (NULL);
+if (width <= 0 || height <= 0)
+	return (NULL);
 
 	meep = malloc(sizeof(int *) * height);
 
@@ -27,7 +27,7 @@ int **alloc_grid(int width, int height)
 
 		if (meep[v] == NULL)
 		{
-			for (; v > 0; v--)
+			for (; v >= 0; v--)
 				free(meep[v]);
 			free(meep);
 			return (NULL);
