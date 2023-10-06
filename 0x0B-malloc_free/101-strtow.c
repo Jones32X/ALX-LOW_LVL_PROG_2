@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 /**
- * strtow - returns a pointer to an array of strings
- * @str: string to be tested
+ * count_word - counts num of words in a string
+ * @s: string to be tested
  * Return: amount of words
  */
 
