@@ -28,8 +28,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (!z)
 		return (NULL);
 	while (j < length1)
+	{
 		z[j] = s1[j];
-	j++;
+		j++;
+	}
 
 	while (n < length2 && j < (length1 + n))
 		z[j++] = s2[k++];
