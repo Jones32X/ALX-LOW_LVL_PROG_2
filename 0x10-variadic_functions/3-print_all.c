@@ -13,7 +13,7 @@ void print_all(const char * const format, ...)
 {
 	int j = 0;
 	char *STR;
-	char *SEPARATE = " ";
+	char *SEPARATE = "";
 
 	va_list list;
 
