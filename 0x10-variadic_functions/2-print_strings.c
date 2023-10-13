@@ -13,10 +13,10 @@ void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list STRINGS;
 	char *str;
-	unsigned int INDEX;
+	unsigned int INDEX = 0;
 
 	va_start(STRINGS, n);
-	for (INDEX = 0; INDEX < n; INDEX++)
+	for (; n > INDEX; INDEX++)
 	{
 		str = va_arg(STRINGS, char *);
 		if (str == NULL)
