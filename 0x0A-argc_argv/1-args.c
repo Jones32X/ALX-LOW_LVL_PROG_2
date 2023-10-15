@@ -1,15 +1,15 @@
 #include "main.h"
-
-
+#include <stdio.h>
 /**
- * main - responsible for printing program name
- * @argc: amountof arguments
- * @argv: argument array
- * Return: Alwasys 0
+ * main - ampount of arguments passed to program
+ * @argc: argument amount
+ * @argv: argumen array
+ * Return: 0 Always
  */
 
-int main(int argc __attribute__((unused)), char *argv[])
+int main(int argc, char *argv[])
 {
-	printf("%s", *argv);
+	(void) argv;
+	printf("%d\n", argc - 1);
 	return (0);
 }
