@@ -37,7 +37,8 @@ int main(int argc, char *argv[])
 			number -= CoInS[k];
 		}
 	}
-	printf("%d", Result);
+	printf("%d\n", Result);
+
 	return (0);
 
 }
